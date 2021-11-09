@@ -1,9 +1,7 @@
-
 .course-image {
   max-width: 300px;
   border-radius: 4px;
 }
-
 
 .not-found {
   padding: 40px;
@@ -11,7 +9,6 @@
   flex-direction: column;
   font-family: "Roboto";
 }
-
 
 .about button {
   max-width: 100px;

@@ -1,9 +1,5 @@
-@use '~@angular/material' as mat;
+@use "~@angular/material" as mat;
 /* You can add global styles to this file, and also import other style files */
-
-
-
-
 
 // Include non-theme styles for core.
 @include mat.core();
@@ -14,7 +10,7 @@ $mat-custom-green: (
   200: #a5d6a7,
   300: #81c784,
   400: #66bb6a,
-  500: rgb(76,175,80),
+  500: rgb(76, 175, 80),
   600: #43a047,
   700: #388e3c,
   800: #2e7d32,
@@ -37,14 +33,13 @@ $mat-custom-green: (
     A100: rgba(black, 0.87),
     A200: white,
     A400: white,
-    A700: white
-  )
+    A700: white,
+  ),
 );
-
 
 // Define a theme.
 $primary: mat.define-palette($mat-custom-green);
-$accent:  mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
 
 $theme: mat.define-light-theme($primary, $accent);
 
