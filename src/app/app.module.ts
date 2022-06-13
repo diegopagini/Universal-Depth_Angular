@@ -26,6 +26,7 @@ import { AppComponent } from './app.component';
 import { CourseDialogComponent } from './course-dialog/course-dialog.component';
 import { CourseComponent } from './course/course.component';
 import { CoursesCardListComponent } from './courses-card-list/courses-card-list.component';
+import { AppShellNoDirective } from './directives/app-shell-no.directive';
 import { AppShellDirective } from './directives/app-shell.directive';
 import { HomeComponent } from './home/home.component';
 import { CourseResolver } from './services/course.resolver';
@@ -40,6 +41,7 @@ import { CoursesService } from './services/courses.service';
     CourseDialogComponent,
     AboutComponent,
     AppShellDirective,
+    AppShellNoDirective,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

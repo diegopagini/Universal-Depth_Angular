@@ -1,4 +1,4 @@
-<div class="courses-panel">
+<div class="courses-panel" *appAppShellNoRender>
   <mat-tab-group>
     <mat-tab label="All Courses Available">
       <courses-card-list [courses]="courses$ | async"> </courses-card-list>
